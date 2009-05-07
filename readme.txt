@@ -6,11 +6,11 @@ Requires at least: 2.7
 Tested up to: 2.7.1
 Stable tag: 1.0
 
-Says Something Else replaces the default “SoAndSo says:” in Wordpress comment threads with whatever you specify.
+Says Something Else replaces the default â€œSoAndSo says:â€ in Wordpress comment threads with whatever you specify.
 
 == Description ==
 
-Says Something Else replaces the default “SoAndSo says:” in Wordpress comment threads with whatever you specify. If you specify more than one replacement, Says Something Else will randomly pick from your collection of specified words.
+Says Something Else replaces the default â€œSoAndSo says:â€ in Wordpress comment threads with whatever you specify. If you specify more than one replacement, Says Something Else will randomly pick from your collection of specified words.
 
 == Screenshots ==
 
