@@ -46,15 +46,16 @@ function sse_menu_link() {
 function sse_settings_page() {
 	global $sse_plugopts;
 	if (isset($_POST['save_changes'])) {
-		$sse_plugopts['words'] = $_POST['words'];
+		$sse_plugopts['words'] = stripslashes($_POST['words']);
 		update_option('SaysSomethingElse', $sse_plugopts);
 	}
+	$words=$sse_plugopts['words'];
 	print <<<EOF
 <div id="sse_admin" class="wrap">
 	<h2>Says Something Else</h2>
 	<form id="sse-options" action="" method="post">
 		<label for="sse-words">Words (comma separated):</label>
-		<textarea name="words" id="sse-words">{$sse_plugopts['words']}</textarea>
+		<textarea name="words" id="sse-words">{$words}</textarea>
 		<input type="hidden" name="save_changes" value="1" />
 		<div class="submit"><input type="submit" value="Save Changes" /></div>
 	</form>
