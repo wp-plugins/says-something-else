@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=8
 Tags: comments, themes, says, thread
 Requires at least: 2.7
 Tested up to: 2.7.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 
 Says Something Else replaces the default “SoAndSo says:” in Wordpress comment threads with whatever you specify.
 
@@ -33,3 +33,4 @@ The fastest way would be to leave a comment on the [plugin homepage](http://www.
 == Changelog ==
 
 * 1.0		Initial release
+* 1.0.1		Fixed bug by adding stripslashes to JS output.
