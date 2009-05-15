@@ -3,7 +3,7 @@
 Plugin Name: Says Something Else
 Plugin URI: http://www.robotwithaheart.com/wordpress-work/says-something-else
 Description: Uses Javascript to replace "SoAndSo says" in the default threaded comments presentation with "SoAndSo [whatever you want]".
-Version: 1.0.1
+Version: 1.0.2
 Author: Norman Yung
 Author URI: http://www.robotwithaheart.com
 
