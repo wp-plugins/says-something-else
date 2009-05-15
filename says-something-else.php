@@ -82,6 +82,10 @@ function sse_public() {
 	print '<script type="text/javascript">';
 	$words=explode(',', $sse_plugopts['words']);
 	array_walk($words, 'sse_trim');
+	for ($i=0; $i<count($words); $i++) {
+		if (empty($words[$i])) unset($words[$i]);
+	}
+	$words=array_values($words);
 	print 'var sse_words='.json_encode($words);
 	print '</script>';
 	wp_register_script('sse-public-js', SSE_PLUGPATH.'public.js', array('jquery'), '1.0');
